@@ -15,8 +15,8 @@ export const profile = {
   phone: "+91 8861330306",
   linkedin: "https://www.linkedin.com/in/mallikarjun-korwar-/",
   github: "https://github.com/mallikarjunkorwar26",
-  resumeUrl: "/resume-mallikarjun-korwar.pdf",
-  profileImage: "/images/mk.jpeg",
+  resumeUrl: `${import.meta.env.BASE_URL}resume-mallikarjun-korwar.pdf`,
+  profileImage: `${import.meta.env.BASE_URL}images/mk.jpeg`,
   heroDescription:
     "I plan, deploy, and maintain the infrastructure that keeps enterprise operations running — from server rooms to branch networks. Seven years in, I still get the same satisfaction from a clean cable run and a firewall rule that just works.",
   aboutParagraphs: [
